@@ -1,9 +1,9 @@
 #encoding=utf-8
 '''
-                  builder 模式 
-    有效应对类成员过多时构造方法内容太长问题
-    因为python中存在默认参数，效果没有java中明显
-    当出现许多可选参数时，java需重载多个构造函数以应对
+builder 模式 
+有效应对类成员过多时构造方法内容太长问题
+因为python中存在默认参数，效果没有java中明显
+当出现许多可选参数时，java需重载多个构造函数以应对
 '''
 class Person(object):
     def __init__(self):
