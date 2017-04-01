@@ -1,6 +1,7 @@
 #coding=utf-8
-###----------------------------###
-### 通过type类的类生成器       ###
+'''
+通过type类的类生成器
+''''
 class Singleton(type):
     __doc__  = 'singleton class factory\n __metaclass__ = Singleton'
     def __init__(self, name, bases, dict):
